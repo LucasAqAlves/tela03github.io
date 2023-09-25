@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela03</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <canvas id="barra_topo"></canvas>
+        <canvas id="quadrado"></canvas>
+        <p id="inscrever">Inscreva-se</p>
+
+        <form id="form_inscrever">
+            <label id="label">Nome</label><br>
+            <input id = "input" type="text" placeholder="Digite seu nome" alt="Nome"><br>
+
+            <label id="label">Email</label><br>
+            <input id="input" type="text" placeholder="exemplo123@gmail.com" alt = "Email"><br>
+
+            <label id="label">Senha</label><br> 
+            <input id ="input" type="password" placeholder="Digite sua senha" alt="Senha"><br>
+
+            <img src="./img/esconder.svg" alt="Icode de um olho" id="olho">
+
+            <label id="label_cep">CEP</label>
+            <label id="label_numero">Número</label><br>
+
+            <input id="input_cep" type="text" placeholder="Digite seu CEP" alt="cep">
+            <input id="input_numero" type="text" placeholder="Digite seu número" alt="numero">
+
+            <label id="label">Rua</label>
+            <input id="input" type="text" placeholder="Digite a sua rua"><br>
+
+            <label id="label">Cidade</label><br>
+            <select id="select_cidade">
+                <option value="">Selecione uma cidade</option>
+                <option value="saopaulo">São Paulo</option>
+                <option value="riodejaneiro">Rio de Janeiro</option>
+                <option value="belohorizonte">Belo Horizonte</option>
+                <option value="vitoria">Vitória</option>
+            </select><br>
+
+            <input type="checkbox" id="input_checkbox">
+            <p id="p_checkbox">Concordo com os termos e condições</p>
+
+            <input id="botao_cadastro" type="submit" value="Cadastrar conta">
+
+            <canvas id="barra_baixo"></canvas>
+
+
+        </form>
+    </main> 
+</body>
+
+</html>
